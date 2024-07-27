@@ -55,7 +55,7 @@ ol {
 }
 
 .content__list {
-    block-size: 298px;
+    block-size: 303px;
     overflow-y: auto;
     overflow-x: hidden;
     position: relative;
@@ -65,8 +65,9 @@ ol {
     display: flex;
     flex-direction: column;
     justify-content: end;
-    inline-size: 399px;
+    inline-size: 429px;
     block-size: 534px;
+    margin-inline-end: 30px;
 }
 
 .content__details .title {
@@ -96,18 +97,20 @@ ol {
   display: flex;
   align-items: start;
   inline-size: 394px;
+  
 }
 
 .content__video-card-thumbnail {
   inline-size: 194px;
+  block-size: 103px;
   object-fit: cover;
   object-position: 0;
-  margin-top: 2px;
-  margin-bottom: 2px;
+  margin-block-start: 2px;
+  margin-block-end: 2px;
 }
 
 .content__video-card-description-container {
-  inline-size: 100%;
+  inline-size: 200px;
   block-size: 100%;
 }
 
@@ -134,7 +137,7 @@ ol {
   display: block;
   text-decoration: none;
   color: #fff;
-  margin: 2px;
+  margin: 3px;
 }
 
 .content__video-card-title {
@@ -226,10 +229,11 @@ ol {
 }
 
 .more-button {
-  inline-size: 100%;
-  margin-block: 3px;
+  inline-size: 396px;
+  margin-block-end: 3px;
   margin-inline-start: 3px;
   margin-inline-end: 3px;
+  
 }
 
 .search-form__textfield:focus {
